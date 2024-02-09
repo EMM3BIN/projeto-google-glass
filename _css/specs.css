@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*estilização dos objetos que estão apenas no arquivo "specs.html"*/
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+/* agora as configurações do tamanho do frame */
+iframe#frame-spec {
+    width: 405px;
+    height: 280px;
+    border: none;
+    overflow: hidden; /*esse método a visualização/rolagem do conteúdo */
+}
+/* configuração de webkit do frame, para sumir a barra de rolagem */
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;    
+}
+
